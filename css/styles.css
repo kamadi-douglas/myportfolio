@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    border:blue 5px;
+    margin:
+}
+@media screen and (min-wdth: 460px) and (max-width: 780px){
+    body{
+    background-color:pink;
+    color:lightsalmon;
+  }
+}
+@media screen and (min-width: 780px){
+    body{
+    background-color:teal;
+    }
+}
+h1{
+    color:red;
+    text-align: center;
+}
+table,tr,td,th{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+}
+
+nav>ul {
+    text-align: right;
+}
+
+nav>ul>li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color:black;
+}
+
+nav>ul>li>a:hover {
+    box-shadow: blue;
+    background:red;
+    color:orange;
+}
